@@ -97,11 +97,9 @@
 		8BF30341210E543D003D4663 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
-				8BF30342210E543D003D4663 /* AppDelegate.swift */,
+				8BF30370210E6015003D4663 /* Supporting Files */,
 				8BF30344210E543D003D4663 /* ViewController.swift */,
 				8BF30346210E543D003D4663 /* Main.storyboard */,
-				8BF30349210E543F003D4663 /* Assets.xcassets */,
-				8BF3034B210E543F003D4663 /* LaunchScreen.storyboard */,
 				8BF3034E210E543F003D4663 /* Info.plist */,
 			);
 			path = Cards;
@@ -123,6 +121,16 @@
 				8BF30364210E5440003D4663 /* Info.plist */,
 			);
 			path = CardsUITests;
+			sourceTree = "<group>";
+		};
+		8BF30370210E6015003D4663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BF30342210E543D003D4663 /* AppDelegate.swift */,
+				8BF30349210E543F003D4663 /* Assets.xcassets */,
+				8BF3034B210E543F003D4663 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
