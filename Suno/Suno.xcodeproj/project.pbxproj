@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B18FC3E1F09B87B00D71D5A /* SUNO3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC3D1F09B87B00D71D5A /* SUNO3.png */; };
+		8B18FC401F09CD6100D71D5A /* SUNO LOGIN FUNDO.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC3F1F09CD6100D71D5A /* SUNO LOGIN FUNDO.png */; };
+		8B18FC441F09E0D100D71D5A /* SUNO TELA INICIAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC431F09E0D100D71D5A /* SUNO TELA INICIAL.png */; };
+		8B18FC461F09E65400D71D5A /* SUNO RETORNO TELAS.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC451F09E65400D71D5A /* SUNO RETORNO TELAS.png */; };
+		8B18FC481F0A6C8D00D71D5A /* SUNO FORUM 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC471F0A6C8D00D71D5A /* SUNO FORUM 1.png */; };
+		8B18FC4A1F0A73DA00D71D5A /* SUNO FORUM 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC491F0A73DA00D71D5A /* SUNO FORUM 2.png */; };
+		8B18FC4C1F0A81C500D71D5A /* SUNO RELATORIOS 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC4B1F0A81C500D71D5A /* SUNO RELATORIOS 1.png */; };
+		8B18FC4E1F0A877B00D71D5A /* SUNO RELATORIOS 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC4D1F0A877B00D71D5A /* SUNO RELATORIOS 2.png */; };
+		8B18FC501F0A8B2400D71D5A /* Suno Relatorios 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC4F1F0A8B2400D71D5A /* Suno Relatorios 3.png */; };
+		8B18FC641F0AADC500D71D5A /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC511F0AADC500D71D5A /* Icon-60.png */; };
+		8B18FC651F0AADC500D71D5A /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC521F0AADC500D71D5A /* Icon-60@2x.png */; };
+		8B18FC661F0AADC500D71D5A /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC531F0AADC500D71D5A /* Icon-60@3x.png */; };
+		8B18FC671F0AADC500D71D5A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC541F0AADC500D71D5A /* Icon-72.png */; };
+		8B18FC681F0AADC500D71D5A /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC551F0AADC500D71D5A /* Icon-72@2x.png */; };
+		8B18FC691F0AADC500D71D5A /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC561F0AADC500D71D5A /* Icon-76.png */; };
+		8B18FC6A1F0AADC500D71D5A /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC571F0AADC500D71D5A /* Icon-76@2x.png */; };
+		8B18FC6B1F0AADC500D71D5A /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC581F0AADC500D71D5A /* Icon-76@3x.png */; };
+		8B18FC6C1F0AADC500D71D5A /* Icon-iPadPro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC591F0AADC500D71D5A /* Icon-iPadPro@2x.png */; };
+		8B18FC6D1F0AADC500D71D5A /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC5A1F0AADC500D71D5A /* Icon-Small-50.png */; };
+		8B18FC6E1F0AADC500D71D5A /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC5B1F0AADC500D71D5A /* Icon-Small-50@2x.png */; };
+		8B18FC6F1F0AADC500D71D5A /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC5C1F0AADC500D71D5A /* Icon-Small.png */; };
+		8B18FC701F0AADC500D71D5A /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC5D1F0AADC500D71D5A /* Icon-Small@2x.png */; };
+		8B18FC711F0AADC500D71D5A /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC5E1F0AADC500D71D5A /* Icon-Small@3x.png */; };
+		8B18FC721F0AADC500D71D5A /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC5F1F0AADC500D71D5A /* Icon-Spotlight-40.png */; };
+		8B18FC731F0AADC500D71D5A /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC601F0AADC500D71D5A /* Icon-Spotlight-40@2x.png */; };
+		8B18FC741F0AADC500D71D5A /* Icon-Spotlight-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC611F0AADC500D71D5A /* Icon-Spotlight-40@3x.png */; };
+		8B18FC751F0AADC500D71D5A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC621F0AADC500D71D5A /* Icon.png */; };
+		8B18FC761F0AADC500D71D5A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18FC631F0AADC500D71D5A /* Icon@2x.png */; };
+		8BAFD8641F0937CA00E0CCC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFD8631F0937CA00E0CCC6 /* AppDelegate.swift */; };
+		8BAFD8661F0937CA00E0CCC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFD8651F0937CA00E0CCC6 /* ViewController.swift */; };
+		8BAFD8691F0937CA00E0CCC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAFD8671F0937CA00E0CCC6 /* Main.storyboard */; };
+		8BAFD86B1F0937CA00E0CCC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAFD86A1F0937CA00E0CCC6 /* Assets.xcassets */; };
+		8BAFD86E1F0937CA00E0CCC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAFD86C1F0937CA00E0CCC6 /* LaunchScreen.storyboard */; };
+		8BAFD87A1F0967DF00E0CCC6 /* SUNO FU.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAFD8791F0967DF00E0CCC6 /* SUNO FU.png */; };
+		8BAFD87C1F097AC100E0CCC6 /* SUNO F2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAFD87B1F097AC100E0CCC6 /* SUNO F2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B18FC3D1F09B87B00D71D5A /* SUNO3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SUNO3.png; path = ../../SUNO3.png; sourceTree = "<group>"; };
+		8B18FC3F1F09CD6100D71D5A /* SUNO LOGIN FUNDO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SUNO LOGIN FUNDO.png"; path = "../../SUNO LOGIN FUNDO.png"; sourceTree = "<group>"; };
+		8B18FC431F09E0D100D71D5A /* SUNO TELA INICIAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SUNO TELA INICIAL.png"; path = "../../SUNO TELA INICIAL.png"; sourceTree = "<group>"; };
+		8B18FC451F09E65400D71D5A /* SUNO RETORNO TELAS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SUNO RETORNO TELAS.png"; path = "../../SUNO RETORNO TELAS.png"; sourceTree = "<group>"; };
+		8B18FC471F0A6C8D00D71D5A /* SUNO FORUM 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SUNO FORUM 1.png"; path = "../../SUNO FORUM 1.png"; sourceTree = "<group>"; };
+		8B18FC491F0A73DA00D71D5A /* SUNO FORUM 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SUNO FORUM 2.png"; path = "../../SUNO FORUM 2.png"; sourceTree = "<group>"; };
+		8B18FC4B1F0A81C500D71D5A /* SUNO RELATORIOS 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SUNO RELATORIOS 1.png"; path = "../../SUNO RELATORIOS 1.png"; sourceTree = "<group>"; };
+		8B18FC4D1F0A877B00D71D5A /* SUNO RELATORIOS 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SUNO RELATORIOS 2.png"; path = "../../SUNO RELATORIOS 2.png"; sourceTree = "<group>"; };
+		8B18FC4F1F0A8B2400D71D5A /* Suno Relatorios 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Suno Relatorios 3.png"; path = "../../Suno Relatorios 3.png"; sourceTree = "<group>"; };
+		8B18FC511F0AADC500D71D5A /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC521F0AADC500D71D5A /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC531F0AADC500D71D5A /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC541F0AADC500D71D5A /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC551F0AADC500D71D5A /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC561F0AADC500D71D5A /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC571F0AADC500D71D5A /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC581F0AADC500D71D5A /* Icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@3x.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC591F0AADC500D71D5A /* Icon-iPadPro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPadPro@2x.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC5A1F0AADC500D71D5A /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC5B1F0AADC500D71D5A /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC5C1F0AADC500D71D5A /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC5D1F0AADC500D71D5A /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC5E1F0AADC500D71D5A /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC5F1F0AADC500D71D5A /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC601F0AADC500D71D5A /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC611F0AADC500D71D5A /* Icon-Spotlight-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@3x.png"; sourceTree = SOURCE_ROOT; };
+		8B18FC621F0AADC500D71D5A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		8B18FC631F0AADC500D71D5A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		8BAFD8601F0937CA00E0CCC6 /* Suno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Suno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAFD8631F0937CA00E0CCC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BAFD8651F0937CA00E0CCC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BAFD8681F0937CA00E0CCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BAFD86A1F0937CA00E0CCC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BAFD86D1F0937CA00E0CCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BAFD86F1F0937CA00E0CCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAFD8791F0967DF00E0CCC6 /* SUNO FU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SUNO FU.png"; path = "../../SUNO FU.png"; sourceTree = "<group>"; };
+		8BAFD87B1F097AC100E0CCC6 /* SUNO F2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SUNO F2.png"; path = "../../SUNO F2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BAFD85D1F0937CA00E0CCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BAFD8571F0937CA00E0CCC6 = {
+			isa = PBXGroup;
+			children = (
+				8BAFD8621F0937CA00E0CCC6 /* Suno */,
+				8BAFD8611F0937CA00E0CCC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BAFD8611F0937CA00E0CCC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFD8601F0937CA00E0CCC6 /* Suno.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BAFD8621F0937CA00E0CCC6 /* Suno */ = {
+			isa = PBXGroup;
+			children = (
+				8BAFD8631F0937CA00E0CCC6 /* AppDelegate.swift */,
+				8BAFD8651F0937CA00E0CCC6 /* ViewController.swift */,
+				8BAFD8671F0937CA00E0CCC6 /* Main.storyboard */,
+				8B18FC4F1F0A8B2400D71D5A /* Suno Relatorios 3.png */,
+				8B18FC4D1F0A877B00D71D5A /* SUNO RELATORIOS 2.png */,
+				8B18FC4B1F0A81C500D71D5A /* SUNO RELATORIOS 1.png */,
+				8B18FC491F0A73DA00D71D5A /* SUNO FORUM 2.png */,
+				8B18FC471F0A6C8D00D71D5A /* SUNO FORUM 1.png */,
+				8B18FC451F09E65400D71D5A /* SUNO RETORNO TELAS.png */,
+				8B18FC431F09E0D100D71D5A /* SUNO TELA INICIAL.png */,
+				8B18FC3F1F09CD6100D71D5A /* SUNO LOGIN FUNDO.png */,
+				8B18FC3D1F09B87B00D71D5A /* SUNO3.png */,
+				8BAFD87B1F097AC100E0CCC6 /* SUNO F2.png */,
+				8BAFD8791F0967DF00E0CCC6 /* SUNO FU.png */,
+				8BAFD86A1F0937CA00E0CCC6 /* Assets.xcassets */,
+				8B18FC511F0AADC500D71D5A /* Icon-60.png */,
+				8B18FC521F0AADC500D71D5A /* Icon-60@2x.png */,
+				8B18FC531F0AADC500D71D5A /* Icon-60@3x.png */,
+				8B18FC541F0AADC500D71D5A /* Icon-72.png */,
+				8B18FC551F0AADC500D71D5A /* Icon-72@2x.png */,
+				8B18FC561F0AADC500D71D5A /* Icon-76.png */,
+				8B18FC571F0AADC500D71D5A /* Icon-76@2x.png */,
+				8B18FC581F0AADC500D71D5A /* Icon-76@3x.png */,
+				8B18FC591F0AADC500D71D5A /* Icon-iPadPro@2x.png */,
+				8B18FC5A1F0AADC500D71D5A /* Icon-Small-50.png */,
+				8B18FC5B1F0AADC500D71D5A /* Icon-Small-50@2x.png */,
+				8B18FC5C1F0AADC500D71D5A /* Icon-Small.png */,
+				8B18FC5D1F0AADC500D71D5A /* Icon-Small@2x.png */,
+				8B18FC5E1F0AADC500D71D5A /* Icon-Small@3x.png */,
+				8B18FC5F1F0AADC500D71D5A /* Icon-Spotlight-40.png */,
+				8B18FC601F0AADC500D71D5A /* Icon-Spotlight-40@2x.png */,
+				8B18FC611F0AADC500D71D5A /* Icon-Spotlight-40@3x.png */,
+				8B18FC621F0AADC500D71D5A /* Icon.png */,
+				8B18FC631F0AADC500D71D5A /* Icon@2x.png */,
+				8BAFD86C1F0937CA00E0CCC6 /* LaunchScreen.storyboard */,
+				8BAFD86F1F0937CA00E0CCC6 /* Info.plist */,
+			);
+			path = Suno;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BAFD85F1F0937CA00E0CCC6 /* Suno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAFD8721F0937CA00E0CCC6 /* Build configuration list for PBXNativeTarget "Suno" */;
+			buildPhases = (
+				8BAFD85C1F0937CA00E0CCC6 /* Sources */,
+				8BAFD85D1F0937CA00E0CCC6 /* Frameworks */,
+				8BAFD85E1F0937CA00E0CCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Suno;
+			productName = Suno;
+			productReference = 8BAFD8601F0937CA00E0CCC6 /* Suno.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BAFD8581F0937CA00E0CCC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LeandroEstrada;
+				TargetAttributes = {
+					8BAFD85F1F0937CA00E0CCC6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5F3426985K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8BAFD85B1F0937CA00E0CCC6 /* Build configuration list for PBXProject "Suno" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BAFD8571F0937CA00E0CCC6;
+			productRefGroup = 8BAFD8611F0937CA00E0CCC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BAFD85F1F0937CA00E0CCC6 /* Suno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BAFD85E1F0937CA00E0CCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B18FC3E1F09B87B00D71D5A /* SUNO3.png in Resources */,
+				8BAFD87A1F0967DF00E0CCC6 /* SUNO FU.png in Resources */,
+				8B18FC4C1F0A81C500D71D5A /* SUNO RELATORIOS 1.png in Resources */,
+				8B18FC481F0A6C8D00D71D5A /* SUNO FORUM 1.png in Resources */,
+				8B18FC751F0AADC500D71D5A /* Icon.png in Resources */,
+				8B18FC6A1F0AADC500D71D5A /* Icon-76@2x.png in Resources */,
+				8B18FC4E1F0A877B00D71D5A /* SUNO RELATORIOS 2.png in Resources */,
+				8B18FC641F0AADC500D71D5A /* Icon-60.png in Resources */,
+				8B18FC741F0AADC500D71D5A /* Icon-Spotlight-40@3x.png in Resources */,
+				8BAFD87C1F097AC100E0CCC6 /* SUNO F2.png in Resources */,
+				8B18FC651F0AADC500D71D5A /* Icon-60@2x.png in Resources */,
+				8BAFD86E1F0937CA00E0CCC6 /* LaunchScreen.storyboard in Resources */,
+				8BAFD86B1F0937CA00E0CCC6 /* Assets.xcassets in Resources */,
+				8B18FC6B1F0AADC500D71D5A /* Icon-76@3x.png in Resources */,
+				8B18FC701F0AADC500D71D5A /* Icon-Small@2x.png in Resources */,
+				8B18FC501F0A8B2400D71D5A /* Suno Relatorios 3.png in Resources */,
+				8B18FC761F0AADC500D71D5A /* Icon@2x.png in Resources */,
+				8B18FC671F0AADC500D71D5A /* Icon-72.png in Resources */,
+				8B18FC721F0AADC500D71D5A /* Icon-Spotlight-40.png in Resources */,
+				8B18FC731F0AADC500D71D5A /* Icon-Spotlight-40@2x.png in Resources */,
+				8BAFD8691F0937CA00E0CCC6 /* Main.storyboard in Resources */,
+				8B18FC681F0AADC500D71D5A /* Icon-72@2x.png in Resources */,
+				8B18FC6F1F0AADC500D71D5A /* Icon-Small.png in Resources */,
+				8B18FC401F09CD6100D71D5A /* SUNO LOGIN FUNDO.png in Resources */,
+				8B18FC441F09E0D100D71D5A /* SUNO TELA INICIAL.png in Resources */,
+				8B18FC4A1F0A73DA00D71D5A /* SUNO FORUM 2.png in Resources */,
+				8B18FC691F0AADC500D71D5A /* Icon-76.png in Resources */,
+				8B18FC661F0AADC500D71D5A /* Icon-60@3x.png in Resources */,
+				8B18FC6D1F0AADC500D71D5A /* Icon-Small-50.png in Resources */,
+				8B18FC6E1F0AADC500D71D5A /* Icon-Small-50@2x.png in Resources */,
+				8B18FC461F09E65400D71D5A /* SUNO RETORNO TELAS.png in Resources */,
+				8B18FC711F0AADC500D71D5A /* Icon-Small@3x.png in Resources */,
+				8B18FC6C1F0AADC500D71D5A /* Icon-iPadPro@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BAFD85C1F0937CA00E0CCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAFD8661F0937CA00E0CCC6 /* ViewController.swift in Sources */,
+				8BAFD8641F0937CA00E0CCC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BAFD8671F0937CA00E0CCC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAFD8681F0937CA00E0CCC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BAFD86C1F0937CA00E0CCC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAFD86D1F0937CA00E0CCC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BAFD8701F0937CA00E0CCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BAFD8711F0937CA00E0CCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BAFD8731F0937CA00E0CCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F3426985K;
+				INFOPLIST_FILE = Suno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leandroestrada.Suno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8BAFD8741F0937CA00E0CCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F3426985K;
+				INFOPLIST_FILE = Suno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leandroestrada.Suno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BAFD85B1F0937CA00E0CCC6 /* Build configuration list for PBXProject "Suno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAFD8701F0937CA00E0CCC6 /* Debug */,
+				8BAFD8711F0937CA00E0CCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BAFD8721F0937CA00E0CCC6 /* Build configuration list for PBXNativeTarget "Suno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAFD8731F0937CA00E0CCC6 /* Debug */,
+				8BAFD8741F0937CA00E0CCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BAFD8581F0937CA00E0CCC6 /* Project object */;
+}

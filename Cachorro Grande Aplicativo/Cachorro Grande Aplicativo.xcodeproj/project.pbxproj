@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B047C571E7D6FF4001F227F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B047C561E7D6FF4001F227F /* AppDelegate.swift */; };
+		8B047C591E7D6FF4001F227F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B047C581E7D6FF4001F227F /* ViewController.swift */; };
+		8B047C5C1E7D6FF4001F227F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C5A1E7D6FF4001F227F /* Main.storyboard */; };
+		8B047C5E1E7D6FF4001F227F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C5D1E7D6FF4001F227F /* Assets.xcassets */; };
+		8B047C611E7D6FF4001F227F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C5F1E7D6FF4001F227F /* LaunchScreen.storyboard */; };
+		8B047C691E7D700B001F227F /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C681E7D700B001F227F /* Logo.jpg */; };
+		8B047C6B1E7D7011001F227F /* electromod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C6A1E7D7011001F227F /* electromod.jpg */; };
+		8B047C6D1E7D7017001F227F /* electromod2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C6C1E7D7017001F227F /* electromod2.jpg */; };
+		8B047C6F1E7D7B47001F227F /* cachorro-kHjG-U20559139393Af-1024x576@GP-Web.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C6E1E7D7B47001F227F /* cachorro-kHjG-U20559139393Af-1024x576@GP-Web.jpg */; };
+		8B047C711E7D7B4E001F227F /* cachorro-grande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C701E7D7B4E001F227F /* cachorro-grande.jpg */; };
+		8B047C731E7D7DF5001F227F /* 432c4c345866695be6d6b5d361f91e6e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C721E7D7DF5001F227F /* 432c4c345866695be6d6b5d361f91e6e.jpg */; };
+		8B047C751E7D7DFB001F227F /* 20160822090452794543e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C741E7D7DFB001F227F /* 20160822090452794543e.jpg */; };
+		8B047C771E7D7E02001F227F /* hqdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C761E7D7E02001F227F /* hqdefault.jpg */; };
+		8B047C791E7D7E0C001F227F /* parede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C781E7D7E0C001F227F /* parede.jpg */; };
+		8B047C7B1E7D9E16001F227F /* discoelectromod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C7A1E7D9E16001F227F /* discoelectromod.jpg */; };
+		8B047C7D1E7D9E63001F227F /* Cachorro-Grande-Costa-do-Marfim-2014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C7C1E7D9E63001F227F /* Cachorro-Grande-Costa-do-Marfim-2014.jpg */; };
+		8B047C7F1E7DA288001F227F /* Cachorro-grande-cinema.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C7E1E7DA288001F227F /* Cachorro-grande-cinema.jpg */; };
+		8B047C811E7DA2ED001F227F /* baixoaugustadisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C801E7DA2ED001F227F /* baixoaugustadisco.jpg */; };
+		8B047C831E7DA386001F227F /* discotodosostempos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C821E7DA386001F227F /* discotodosostempos.jpg */; };
+		8B047C851E7DA38B001F227F /* discopistalivre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C841E7DA38B001F227F /* discopistalivre.jpg */; };
+		8B047C871E7DA38F001F227F /* discoasproximashoras.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C861E7DA38F001F227F /* discoasproximashoras.jpg */; };
+		8B047C891E7DA393001F227F /* Cachorro Grande (2001) - Capa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B047C881E7DA393001F227F /* Cachorro Grande (2001) - Capa.jpg */; };
+		8B8B10541E7DAF7E00793427 /* twitter-social-symbol_318-31657.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B8B10531E7DAF7E00793427 /* twitter-social-symbol_318-31657.jpg */; };
+		8B8B10561E7DAF8200793427 /* facebook-symbol_318-37686.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B8B10551E7DAF8200793427 /* facebook-symbol_318-37686.jpg */; };
+		8B8B10581E7DAF8B00793427 /* instagram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B8B10571E7DAF8B00793427 /* instagram.jpg */; };
+		8B8B105A1E7DB17400793427 /* capaface.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B8B10591E7DB17400793427 /* capaface.jpg */; };
+		8B8B105C1E7DB2D800793427 /* VinilELectromod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B8B105B1E7DB2D800793427 /* VinilELectromod.jpg */; };
+		8B8B105E1E7DB2ED00793427 /* VinilCosta.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8B105D1E7DB2ED00793427 /* VinilCosta.png */; };
+		8B8B10601E7DB2F600793427 /* boina-masculina-imola-boina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B8B105F1E7DB2F600793427 /* boina-masculina-imola-boina.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B047C531E7D6FF4001F227F /* Cachorro Grande Aplicativo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cachorro Grande Aplicativo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B047C561E7D6FF4001F227F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B047C581E7D6FF4001F227F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B047C5B1E7D6FF4001F227F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B047C5D1E7D6FF4001F227F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B047C601E7D6FF4001F227F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B047C621E7D6FF4001F227F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B047C681E7D700B001F227F /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
+		8B047C6A1E7D7011001F227F /* electromod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = electromod.jpg; sourceTree = "<group>"; };
+		8B047C6C1E7D7017001F227F /* electromod2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = electromod2.jpg; sourceTree = "<group>"; };
+		8B047C6E1E7D7B47001F227F /* cachorro-kHjG-U20559139393Af-1024x576@GP-Web.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cachorro-kHjG-U20559139393Af-1024x576@GP-Web.jpg"; sourceTree = "<group>"; };
+		8B047C701E7D7B4E001F227F /* cachorro-grande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cachorro-grande.jpg"; sourceTree = "<group>"; };
+		8B047C721E7D7DF5001F227F /* 432c4c345866695be6d6b5d361f91e6e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 432c4c345866695be6d6b5d361f91e6e.jpg; sourceTree = "<group>"; };
+		8B047C741E7D7DFB001F227F /* 20160822090452794543e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20160822090452794543e.jpg; sourceTree = "<group>"; };
+		8B047C761E7D7E02001F227F /* hqdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hqdefault.jpg; sourceTree = "<group>"; };
+		8B047C781E7D7E0C001F227F /* parede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parede.jpg; sourceTree = "<group>"; };
+		8B047C7A1E7D9E16001F227F /* discoelectromod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = discoelectromod.jpg; sourceTree = "<group>"; };
+		8B047C7C1E7D9E63001F227F /* Cachorro-Grande-Costa-do-Marfim-2014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cachorro-Grande-Costa-do-Marfim-2014.jpg"; sourceTree = "<group>"; };
+		8B047C7E1E7DA288001F227F /* Cachorro-grande-cinema.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cachorro-grande-cinema.jpg"; sourceTree = "<group>"; };
+		8B047C801E7DA2ED001F227F /* baixoaugustadisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baixoaugustadisco.jpg; sourceTree = "<group>"; };
+		8B047C821E7DA386001F227F /* discotodosostempos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = discotodosostempos.jpg; sourceTree = "<group>"; };
+		8B047C841E7DA38B001F227F /* discopistalivre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = discopistalivre.jpg; sourceTree = "<group>"; };
+		8B047C861E7DA38F001F227F /* discoasproximashoras.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = discoasproximashoras.jpg; sourceTree = "<group>"; };
+		8B047C881E7DA393001F227F /* Cachorro Grande (2001) - Capa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cachorro Grande (2001) - Capa.jpg"; sourceTree = "<group>"; };
+		8B8B10531E7DAF7E00793427 /* twitter-social-symbol_318-31657.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twitter-social-symbol_318-31657.jpg"; sourceTree = "<group>"; };
+		8B8B10551E7DAF8200793427 /* facebook-symbol_318-37686.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "facebook-symbol_318-37686.jpg"; sourceTree = "<group>"; };
+		8B8B10571E7DAF8B00793427 /* instagram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instagram.jpg; sourceTree = "<group>"; };
+		8B8B10591E7DB17400793427 /* capaface.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = capaface.jpg; sourceTree = "<group>"; };
+		8B8B105B1E7DB2D800793427 /* VinilELectromod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VinilELectromod.jpg; sourceTree = "<group>"; };
+		8B8B105D1E7DB2ED00793427 /* VinilCosta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VinilCosta.png; sourceTree = "<group>"; };
+		8B8B105F1E7DB2F600793427 /* boina-masculina-imola-boina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boina-masculina-imola-boina.jpg"; sourceTree = "<group>"; };
+		8B8B10611E7DB7AB00793427 /* Roda Gigante - Cachorro Grande.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roda Gigante - Cachorro Grande.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B047C501E7D6FF4001F227F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B047C4A1E7D6FF4001F227F = {
+			isa = PBXGroup;
+			children = (
+				8B047C551E7D6FF4001F227F /* Cachorro Grande Aplicativo */,
+				8B047C541E7D6FF4001F227F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B047C541E7D6FF4001F227F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B047C531E7D6FF4001F227F /* Cachorro Grande Aplicativo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B047C551E7D6FF4001F227F /* Cachorro Grande Aplicativo */ = {
+			isa = PBXGroup;
+			children = (
+				8B047C681E7D700B001F227F /* Logo.jpg */,
+				8B047C6A1E7D7011001F227F /* electromod.jpg */,
+				8B047C6C1E7D7017001F227F /* electromod2.jpg */,
+				8B047C6E1E7D7B47001F227F /* cachorro-kHjG-U20559139393Af-1024x576@GP-Web.jpg */,
+				8B047C701E7D7B4E001F227F /* cachorro-grande.jpg */,
+				8B047C721E7D7DF5001F227F /* 432c4c345866695be6d6b5d361f91e6e.jpg */,
+				8B047C741E7D7DFB001F227F /* 20160822090452794543e.jpg */,
+				8B047C761E7D7E02001F227F /* hqdefault.jpg */,
+				8B047C781E7D7E0C001F227F /* parede.jpg */,
+				8B047C7A1E7D9E16001F227F /* discoelectromod.jpg */,
+				8B047C7C1E7D9E63001F227F /* Cachorro-Grande-Costa-do-Marfim-2014.jpg */,
+				8B047C801E7DA2ED001F227F /* baixoaugustadisco.jpg */,
+				8B047C7E1E7DA288001F227F /* Cachorro-grande-cinema.jpg */,
+				8B047C821E7DA386001F227F /* discotodosostempos.jpg */,
+				8B047C841E7DA38B001F227F /* discopistalivre.jpg */,
+				8B047C861E7DA38F001F227F /* discoasproximashoras.jpg */,
+				8B047C881E7DA393001F227F /* Cachorro Grande (2001) - Capa.jpg */,
+				8B8B10531E7DAF7E00793427 /* twitter-social-symbol_318-31657.jpg */,
+				8B8B10551E7DAF8200793427 /* facebook-symbol_318-37686.jpg */,
+				8B8B10571E7DAF8B00793427 /* instagram.jpg */,
+				8B8B10591E7DB17400793427 /* capaface.jpg */,
+				8B8B105B1E7DB2D800793427 /* VinilELectromod.jpg */,
+				8B8B105D1E7DB2ED00793427 /* VinilCosta.png */,
+				8B8B105F1E7DB2F600793427 /* boina-masculina-imola-boina.jpg */,
+				8B8B10611E7DB7AB00793427 /* Roda Gigante - Cachorro Grande.mp4 */,
+				8B047C561E7D6FF4001F227F /* AppDelegate.swift */,
+				8B047C581E7D6FF4001F227F /* ViewController.swift */,
+				8B047C5A1E7D6FF4001F227F /* Main.storyboard */,
+				8B047C5D1E7D6FF4001F227F /* Assets.xcassets */,
+				8B047C5F1E7D6FF4001F227F /* LaunchScreen.storyboard */,
+				8B047C621E7D6FF4001F227F /* Info.plist */,
+			);
+			path = "Cachorro Grande Aplicativo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B047C521E7D6FF4001F227F /* Cachorro Grande Aplicativo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B047C651E7D6FF4001F227F /* Build configuration list for PBXNativeTarget "Cachorro Grande Aplicativo" */;
+			buildPhases = (
+				8B047C4F1E7D6FF4001F227F /* Sources */,
+				8B047C501E7D6FF4001F227F /* Frameworks */,
+				8B047C511E7D6FF4001F227F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cachorro Grande Aplicativo";
+			productName = "Cachorro Grande Aplicativo";
+			productReference = 8B047C531E7D6FF4001F227F /* Cachorro Grande Aplicativo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B047C4B1E7D6FF4001F227F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = CachorroGrande;
+				TargetAttributes = {
+					8B047C521E7D6FF4001F227F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8B047C4E1E7D6FF4001F227F /* Build configuration list for PBXProject "Cachorro Grande Aplicativo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B047C4A1E7D6FF4001F227F;
+			productRefGroup = 8B047C541E7D6FF4001F227F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B047C521E7D6FF4001F227F /* Cachorro Grande Aplicativo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B047C511E7D6FF4001F227F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B047C691E7D700B001F227F /* Logo.jpg in Resources */,
+				8B047C871E7DA38F001F227F /* discoasproximashoras.jpg in Resources */,
+				8B047C731E7D7DF5001F227F /* 432c4c345866695be6d6b5d361f91e6e.jpg in Resources */,
+				8B8B10601E7DB2F600793427 /* boina-masculina-imola-boina.jpg in Resources */,
+				8B8B105E1E7DB2ED00793427 /* VinilCosta.png in Resources */,
+				8B047C711E7D7B4E001F227F /* cachorro-grande.jpg in Resources */,
+				8B047C811E7DA2ED001F227F /* baixoaugustadisco.jpg in Resources */,
+				8B047C611E7D6FF4001F227F /* LaunchScreen.storyboard in Resources */,
+				8B047C7D1E7D9E63001F227F /* Cachorro-Grande-Costa-do-Marfim-2014.jpg in Resources */,
+				8B8B105C1E7DB2D800793427 /* VinilELectromod.jpg in Resources */,
+				8B8B105A1E7DB17400793427 /* capaface.jpg in Resources */,
+				8B047C6B1E7D7011001F227F /* electromod.jpg in Resources */,
+				8B047C5E1E7D6FF4001F227F /* Assets.xcassets in Resources */,
+				8B047C791E7D7E0C001F227F /* parede.jpg in Resources */,
+				8B047C6F1E7D7B47001F227F /* cachorro-kHjG-U20559139393Af-1024x576@GP-Web.jpg in Resources */,
+				8B047C6D1E7D7017001F227F /* electromod2.jpg in Resources */,
+				8B047C771E7D7E02001F227F /* hqdefault.jpg in Resources */,
+				8B047C7B1E7D9E16001F227F /* discoelectromod.jpg in Resources */,
+				8B047C851E7DA38B001F227F /* discopistalivre.jpg in Resources */,
+				8B047C751E7D7DFB001F227F /* 20160822090452794543e.jpg in Resources */,
+				8B047C891E7DA393001F227F /* Cachorro Grande (2001) - Capa.jpg in Resources */,
+				8B8B10541E7DAF7E00793427 /* twitter-social-symbol_318-31657.jpg in Resources */,
+				8B047C5C1E7D6FF4001F227F /* Main.storyboard in Resources */,
+				8B047C7F1E7DA288001F227F /* Cachorro-grande-cinema.jpg in Resources */,
+				8B8B10581E7DAF8B00793427 /* instagram.jpg in Resources */,
+				8B047C831E7DA386001F227F /* discotodosostempos.jpg in Resources */,
+				8B8B10561E7DAF8200793427 /* facebook-symbol_318-37686.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B047C4F1E7D6FF4001F227F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B047C591E7D6FF4001F227F /* ViewController.swift in Sources */,
+				8B047C571E7D6FF4001F227F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B047C5A1E7D6FF4001F227F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B047C5B1E7D6FF4001F227F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B047C5F1E7D6FF4001F227F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B047C601E7D6FF4001F227F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B047C631E7D6FF4001F227F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B047C641E7D6FF4001F227F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B047C661E7D6FF4001F227F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cachorro Grande Aplicativo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cachorrogrande.Cachorro-Grande-Aplicativo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8B047C671E7D6FF4001F227F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cachorro Grande Aplicativo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cachorrogrande.Cachorro-Grande-Aplicativo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B047C4E1E7D6FF4001F227F /* Build configuration list for PBXProject "Cachorro Grande Aplicativo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B047C631E7D6FF4001F227F /* Debug */,
+				8B047C641E7D6FF4001F227F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B047C651E7D6FF4001F227F /* Build configuration list for PBXNativeTarget "Cachorro Grande Aplicativo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B047C661E7D6FF4001F227F /* Debug */,
+				8B047C671E7D6FF4001F227F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B047C4B1E7D6FF4001F227F /* Project object */;
+}

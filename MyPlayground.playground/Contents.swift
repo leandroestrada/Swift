@@ -1,123 +1,108 @@
-//: # Types
-
 import UIKit
-import Foundation
 
-//: ### Example 1: Bool, Int, Float, Double
-class LightSwitch {
+class Refeicao{
+    var happiness:Int
+    var name:String
+    var items = Array<Item>()
     
-    var on: Bool = true
-}
+    init(name:String, happiness:Int ) {
+        self.name = name
+        self.happiness = happiness
+    }
+    func allCalories() -> Double{
+        var total = 0.0
+        for i in items{
+            total += i.calories
+        }
+        return total
+    }}
 
-var livingRoomSwitch = LightSwitch()
-livingRoomSwitch.on
-//: ### Example 2: Strings and Characters
-var dollarSign: Character = "$"
-var myFirstSwiftString: String = "mo' money"
-var mySecondSwiftString: String = "mo' problems"
-var concatenatedString:String = myFirstSwiftString + ", " + mySecondSwiftString
-
-//: ### Stay tuned for more on Optionals and Tuples in the upcoming lessons!
-
-//: # Operators
-
-//: ### Example 1 - Comparison operators
-let ticketPrice = 7.5
-let allowance = 10.0
-var iceCreamPrice = 3.0
-
-
-if allowance >= ticketPrice + iceCreamPrice {
-    print("Let's go to the movies!")
-} else {
-    print("Let's watch a movie at home and eat ice cream")
-}
-//: ### Example 2 Logical operators
-var hungry = true
-var vegetarian = false
-
-if hungry {
-    print("Let's eat!")
-} else {
-    print("Let's wait.")
-}
-
-if hungry && !vegetarian {
-    print("Let's eat steak!")
-} else if hungry && vegetarian {
-    print("How about pumpkin curry?")
-} else {
-    print("nevermind")
-}
-
-var thereIsPie = true
-if hungry || thereIsPie {
-    print("Let's eat!")
-} else {
-    print("Let's wait.")
-}
-
-
-//: ### Example 3 - Ternary conditional
-//: A theoretical example from Apple's Swift Programming Language. These two statements are equivalent:
-/*:
- if question {
- answer1
- } else {
- answer2
- }
- */
-/*:
- question ? answer1 : answer2
- */
-// This statement ...
-//if hungry {
-//    print("Let's eat!")
-//} else {
-//    print("Let's wait.")
-//}
-
-// Could be rewritten like so ...
-hungry ? print("Let's eat!") : print("Let's wait.")
-
-// This statement...
-//if hungry || thereIsPie {
-//    print("Let's eat!")
-//} else {
-//    print("Let's wait.")
-//}
-
-// Could be rewritten like so ...
-hungry || thereIsPie ? print("Let's eat!") : print("Let's wait.")
-
-
-// Ternary statements can also be used as expressions.
-let sandwichPrice = 5.0
-var tax = true
-var lunchPrice = sandwichPrice + (tax ? 0.50 : 0)
-
-//: ### Extra Example - Comparison operators
-let birthYear = 1984
-if birthYear <= 1989 {
-    print("I will understand Gabrielle's 90s references.")
-}
-else {
-    print("I think that Salt n' Peppa are essential seasonings.")
-}
-
-
-
-var jogar = ["De vez em quando"]
-
-
-for frequencia in jogar {
+class Item{
+    var name:String
+    var calories:Double
     
-    print(frequencia)
+    init(name:String, calories:Double) {
+        
+        self.name = name
+        self.calories = calories
+    
+   
+    }
 }
 
+let prato1 = Refeicao(name: "eggplant Brownie", happiness: 5)
+    
+print(prato1.name)
+
+let item1 = Item(name: "brownie", calories: 115)
+let item2 = Item(name: "Veganos", calories: 10)
+prato1.items.append(item1)
+prato1.items.append(item2)
+
+print(prato1.allCalories())
 
 
-var listaDeNomes = ["RUANA", "LALAA", 'Jeova']
 
-listaDeNomes = listaDeNomes.sort { $a > $z }
-print(listaDeNomes)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*func allCalories(calories:Array<Double>)->Double{
+    var total = 0.0
+    for c in calories{
+        total += c
+    }
+    return total
+}
+
+allCalories(calories:[10,20,30])
+
+var values = [1,2]
+var total = 0
+for v in values {
+    total += v
+    
+}
+print(total / values.count)
+
+
+
+
+
+let name = "Eggplant"
+let calories:Double = 50.5
+let happiness:Int = 5
+
+let eggplantIsAVegetable:Bool = false
+
+func helloCalories(){
+        let product = "Brownie"
+        print("Hello Calories \(product)")
+}
+
+func add(name:String, calories:Double){
+        print("Adding \(name) with \(calories)")
+}
+
+add(name: "Brownie",  calories: 30.5)
+add(name: "hello", calories: 3000.0)
+*/
+
+
+
+
+
+
+
